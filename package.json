@@ -10,8 +10,8 @@
     "stop-linux": "killall -9 node",
     "stop-windows": "taskkill /F /IM node.exe"
   },
-  "node-engines": {
-    "node": "16.x"
+  "engines": {
+    "node": ">=14.x"
   },
   "repository": {
     "url": "https://github.com/GonzaBillia/mi-proyecto-backend.git"
